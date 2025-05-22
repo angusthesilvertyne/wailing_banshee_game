@@ -7,13 +7,13 @@ let state = "launch";      // can be "launch", "playing", or "gameover"
 let score = 0;
 let health = 10;           // Banshee breaks in 10 hits
 
-// Load images
+// Load Images
 const launchImg    = new Image();
 const playerImg    = new Image();
 const enemyImg     = new Image();
-launchImg.src      = "images/launch_screen.png";
-playerImg.src      = "images/player_ship.png";
-enemyImg.src       = "images/enemy_ship.png";
+launchImg.src      = "Images/launch_screen.png";
+playerImg.src      = "Images/player_ship.png";
+enemyImg.src       = "Images/enemy_ship.png";
 
 // Player setup
 const player = {
